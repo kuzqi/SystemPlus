@@ -41,3 +41,8 @@ This is a simple minecraft plugin provides a lot of useful commands.
 - **/server**  ◈  join a another server through bungee/proxy. ● Permission: *system.server*
 - **/hub**  ◈  back to the lobby/hub server. ● Permission: *system.hub*
 - **/send**  ◈  send a player/all to another server through bungee/proxy. ● Permission: *system.send*
+
+## 📚 Info
+If you want to disable any command just add it to "blocked-commands" list then it will be disabled.
+>> /Plugins/System/settings.yml/"blocked-commands"
+for any information you can ask me via discord, My discord (*kuzqi*)
