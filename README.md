@@ -3,7 +3,7 @@
 ## > 💡 About
 This is a simple minecraft plugin provides a lot of useful commands.
 
-## > 💎 Features
+> ## 💎 Features
 - High end optimization
 - Full config customization
 - Custom discord server support
