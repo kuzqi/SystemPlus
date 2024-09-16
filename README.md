@@ -44,5 +44,5 @@ This is a simple minecraft plugin provides a lot of useful commands.
 
 ## 📚 Info
 If you want to disable any command just add it to "blocked-commands" list then it will be disabled.
->> /Plugins/System/settings.yml/"blocked-commands"
++ /Plugins/System/settings.yml/"blocked-commands"
 for any information you can ask me via discord, My discord (*kuzqi*)
