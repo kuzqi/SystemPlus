@@ -21,13 +21,13 @@ This is a simple minecraft plugin provides a lot of useful commands.
 - **/store**  ◈  This is for custom store web link.
 - **/youtube** - **/yt  ◈  This is for custom youtube channel link.
 - **/namemc**  ◈  This is for custom namemc link.
-- **/fly**  ◈  for enabling player flight or disable it. *system.fly*
-- **/gmc**  ◈  change player gamemode to creative. *system.gmc*
-- **/gms**  ◈  change player gamemode to survival. *system.gms*
-- **/atp**  ◈  admin telport, working like /tp but only for players. *system.atp*
-- **/rename**  ◈  rename the item name in your hand. *system.rename*
-- **/v** - **/vanish**  ◈  vanish the player. *system.vanish*
-- **/vlist** - **/vanishlist**  ◈  it will show you vanished players. *system.vanishlist*
+- **/fly**  ◈  for enabling player flight or disable it. ● *system.fly*
+- **/gmc**  ◈  change player gamemode to creative. ● *system.gmc*
+- **/gms**  ◈  change player gamemode to survival. ● *system.gms*
+- **/atp**  ◈  admin telport, working like /tp but only for players. ● *system.atp*
+- **/rename**  ◈  rename the item name in your hand. ● *system.rename*
+- **/v** - **/vanish**  ◈  vanish the player. ● *system.vanish*
+- **/vlist** - **/vanishlist**  ◈  it will show you vanished players. ● *system.vanishlist*
 - **/vtp** - **/vanishtp**  ◈  it will teleport you to a player (only while vanish mode). *system.vanishtp*
 - **/invsee**  ◈  show a player invenotry and edit it. *system.invsee*
 - **/lockchat** - **/lc**  ◈  lock the chat and unlock it. *system.lockchat*
