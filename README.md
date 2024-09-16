@@ -16,7 +16,7 @@ This is a simple minecraft plugin provides a lot of useful commands.
 - Social commands links
 
 ## 🔩 Commands
-- */help* | Custom help command (everyone can see it).
+- **/help** | Custom help command (everyone can see it).
 - /discord - /dis | This is for custom discord server link.
 - /store | This is for custom store web link.
 - /youtube - /yt | This is for custom youtube channel link.
