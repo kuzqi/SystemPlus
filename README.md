@@ -9,9 +9,9 @@ This is a simple minecraft plugin provides a lot of useful commands.
 
 > ## 💎 Features
 - High end optimization
-- Full config customization
+- Configs customization
 - Custom discord server support
-- Chat utils & cooldown
+- Chat utils 
 - Blocked commands & Blocked words
 - Plugin message channel
 - TabList / Health Bar
