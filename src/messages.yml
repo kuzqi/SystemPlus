@@ -1,0 +1,72 @@
+no-permission: "&cCommand not found. Type /help for help"
+
+links:
+  discord-link: "https://discord.gg/spiritsmc"
+  namemc-link: "https://namemc.com/server/spiritsmc.net"
+  store-link: "https://store.spiritsmc.net"
+  youtube-link: "https://www.youtube.com/@SpiritsMC"
+
+chat-manager:
+  blocked-msg: "&8┃ &3✪ &8┃ &cThis message has been blocked by system."
+  anti-spam: "&8┃ &3✪ &8┃ &cChill! please wait a second to send messages again!"
+  cleared-chat: "&8┃ &3✪ &8┃ &aThe chat has been cleared by &6$player&a!"
+  locked-chat: "&8┃ &3✪ &8┃ &cThe chat has been locked by &6$player&c!"
+  unlocked-chat: "&8┃ &3✪ &8┃ &aThe chat has been un-locked by &6$player&a!"
+  broadcast-format: "&8[&6Broadcast&8]&r $message"
+
+commands-utils:
+  non-item: "&8┃ &3✪ &8┃ &cYou are not holding an item."
+  not-allowed: "&8┃ &3✪ &8┃ &cYou are not allowed to do that!"
+  not-allowed-forself: "&8┃ &3✪ &8┃ &cYou can't do that to yourself!"
+  only-player-cmd-execute: "&cOnly players who can execute this command!"
+  unknown-player: "&8┃ &3✪ &8┃ &cInvaild player name, make sure the player is online."
+
+gamemode-msg:
+  creative-gamemode: "&8┃ &3✪ &8┃ &aChanged $player's gamemode to &fcreative&a."
+  survival-gamemode: "&8┃ &3✪ &8┃ &aChanged $player's gamemode to &fsurvival&a."
+
+vanish-msg:
+  vanish-enable: "&8┃ &3✪ &8┃ &7Your vanish mode has been &aenabled&7!"
+  vanish-disable: "&8┃ &3✪ &8┃ &7Your vanish mode has been &cdisabled&7!"
+  vanish-list: "&8┃ &3✪ &8┃ &7Staff members in vanish mode:"
+  empty-vanish-list: "&8┃ &3✪ &8┃ &cNo players are currently in vanish mode."
+  vanishtp-rule: "&8┃ &3✪ &8┃ &cYou can only use this command while vanish mode."
+
+heal-msg:
+  healed: "&8┃ &3✪ &8┃ &dThe player $player has been healed!"
+  healed-by-sender: "&8┃ &3✪ &8┃ &dYou have been healed by &f$player&d!"
+
+fly-msg:
+  fly-enable: "&8┃ &3✪ &8┃ &aFly mode has been enabled!"
+  fly-disable: "&8┃ &3✪ &8┃ &cFly mode has been disabled!"
+  creative-mode: "&8┃ &3✪ &8┃ &cFlight cannot be enabled in &fCreative &cmode."
+
+help:
+ - "&7&m-----&b&m-----&3&m----&3( &bSpirits&3MC &3)&3&m----&b&m-----&7&m-----"
+ - "&7▸ &b/guild &8• &7to view guild system commands."
+ - "&7▸ &b/store &8• &7to visit our website store."
+ - "&7▸ &b/discord &8• &7to join our discord server."
+ - "&7▸ &b/friend &8• &7to view friends system commands."
+ - "&7▸ &b/ping &8• &7to your connection ping in server."
+ - "&7▸ &b/youtube &8• &7to visit our youtube channel."
+ - "&7▸ &b/party &8• &7to show party system commands."
+ - "&7&m-----&b&m-----&3&m------------------&b&m-----&7&m-----"
+
+invaild-server:
+ - "&8┃ &3✪ &8┃ &cInvalid server name!"
+ - "&8┃ &3✪ &8┃ &cServers: &6pvp, skypvp, redpvp, duels, creative, survival, blendpvp, kbffa, lobby"
+
+plugin-copyright:
+  plugin-by: "&b[System] developed by &3@kuzqi&b!" # /system
+  plugin-start-up-msg:
+   - "&r"
+   - "&r       &c  ___ __   __ ___  _____  ___  __  __ "
+   - "&r       &c / __|\\ \\ / // __||_   _|| __||  \\/  |"
+   - "&r       &c \\__ \\ \\ V / \\__ \\  | |  | _| | |\\/| |"
+   - "&r       &c |___/  |_|  |___/  |_|  |___||_|  |_|"
+   - "&r       &c                                      "
+   - "&r         &3Plugin Developed by @kuzqi 1.0-BETA"
+   - "&r"
+  plugin-shutdown-msg: "&4Plugin has been disabled. @author kuzqi  1.0-BETA"
+  plugin-reload: "&8┃ &3✪ &8┃ &aSuccessfully reloaded the config file!"
+ 
