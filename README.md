@@ -1,5 +1,9 @@
 # SERVER SYSTEM
 
+## ❓ NOTE
+- This is the FREE version of the plugin, the PREMIUM one will be released soon
+with a new features, commands and new design. stay tuned 😵!
+
 > ## 💡 About
 This is a simple minecraft plugin provides a lot of useful commands.
 
