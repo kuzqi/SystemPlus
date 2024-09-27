@@ -1,0 +1,53 @@
+# +-------------------[ NOTE ]-------------------+
+# +                                              +
+# + This is the "FREE" version of this plugin    +
+# + the premium version has a lot of new addons  +
+# + and more commands and full customization.    +
+# +                                              +
+# + | AUTHOR kuzqi | VERSION 1.0 | API: NO API | +
+# +                                              +
+# +----------------------------------------------+
+
+
+
+# this section is only for /server, /send, /hub
+# here is allowed servers that the player can connect to it
+# through the bungee/proxy using one of these commands
+# /server <server>, /send <player|all> <server> and /hub
+servers:
+ lobby-server: lobby # for /hub
+ allowed-servers:
+  - lobby
+  - pvp
+
+# this section only for "blocked-words" system
+# when someone send a blocked word he will get a mute with "&cSending blocked messages"
+# reason, and you can edit the duration of this punishment here.
+# when someone send a blocked word it will execute /mute <player> <duration> <reason>
+# from the console.
+mute:
+ duration: 5
+
+# only for /addrank, /temprank and /setrank
+# "exempt-players" players that these commands don't work on them.
+ranks:
+ allowed:
+  - admin
+  - vip
+  - member
+ exempt-players:
+  - kuzqi
+
+# when player send a message it will check if the messages contains any blocked words
+# if it contains, he will get a mute for editable mute. 
+# path: plugins/System/settings.yml/mute.duration
+blocked-words:
+ - "play."
+ - "mc."
+ - ".com"
+ - ".net"
+ - ".xyz"
+ - ".club"
+ - ".gg"
+ - "https://"
+ - "http://"
