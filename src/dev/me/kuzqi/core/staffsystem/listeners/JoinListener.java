@@ -22,10 +22,6 @@ public class JoinListener implements Listener {
     public void onJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
         e.setJoinMessage("");
-        
-        if (p.hasPermission("*") || p.isOp()) {
-            p.kickPlayer("Connection refused.");
-        }
     }
 
 }
