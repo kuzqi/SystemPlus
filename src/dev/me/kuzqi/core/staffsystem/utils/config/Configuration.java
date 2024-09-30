@@ -51,25 +51,4 @@ public class Configuration {
     	loadConfigs();
     }
 
-    private FileConfiguration loadFile(File file, String resourceName) {
-        if (!file.exists()) {
-            try {
-      
-                InputStream resourceStream = plugin.getResource(resourceName);
-                if (resourceStream == null) {
-                    throw new IOException("Resource not found: " + resourceName);
-                }
-                
-                Files.copy(resourceStream, file.toPath());
-                System.out.println("[System] Created new config file: " + resourceName);
-                
-            } catch (IOException e) {
-                System.err.println("[System] Failed to create config file: " + resourceName + " - " + e.getMessage());
-                e.printStackTrace();
-            }
-        }
-        
-        return YamlConfiguration.loadConfiguration(file);
-    }
-
 }
