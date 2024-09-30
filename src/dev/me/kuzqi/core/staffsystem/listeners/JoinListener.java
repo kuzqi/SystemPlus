@@ -12,12 +12,6 @@ import dev.me.kuzqi.core.staffsystem.Main;
  */
 public class JoinListener implements Listener {
 
-    @SuppressWarnings("unused")
-	private final Main plugin;
-    public JoinListener(Main m) {
-        this.plugin = m;
-    }
-
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
