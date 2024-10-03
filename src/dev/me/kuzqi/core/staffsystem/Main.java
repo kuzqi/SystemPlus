@@ -25,48 +25,48 @@ import dev.me.kuzqi.core.staffsystem.utils.plugin.PluginMessage;
  */
 public class Main extends JavaPlugin {
 
-	private PluginMessage pluginmessage;
-	private Configuration configmanager;
-	private TextUtils textutils;
-	private PluginManager pluginmanager;
-	private SystemUtils systemutils;
-	private ChatManager chatmanager;
-	private PlayerManager playermanager;
-	private RankManager rankmanager;
-	private VanishManager vanishmanager;
-	private WarnManager warnmanager;
+    private PluginMessage pluginmessage;
+    private Configuration configmanager;
+    private TextUtils textutils;
+    private PluginManager pluginmanager;
+    private SystemUtils systemutils;
+    private ChatManager chatmanager;
+    private PlayerManager playermanager;
+    private RankManager rankmanager;
+    private VanishManager vanishmanager;
+    private WarnManager warnmanager;
 
-	public ArrayList<String> vanish = Lists.newArrayList();
-	public ArrayList<String> flight = Lists.newArrayList();
-	public Set<Boolean> lockChat = Sets.newHashSet();
+    public ArrayList<String> vanish = Lists.newArrayList();
+    public ArrayList<String> flight = Lists.newArrayList();
+    public Set<Boolean> lockChat = Sets.newHashSet();
 
 
-	@Override
-	public void onEnable() {
-        loadThePlugin();
-	}
+    @Override
+    public void onEnable() {
+	loadThePlugin();
+    }
 	
 	
-	@Override
-	public void onDisable() {
-		unloadThePlugin();
-	}
+    @Override
+    public void onDisable() {
+	unloadThePlugin();
+    }
     
     
 	
     private void loadThePlugin() {
         getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
-		pluginmessage = new PluginMessage(this);
-		textutils = new TextUtils(this);
-		systemutils = new SystemUtils(this);
-		pluginmanager = new PluginManager(this);
-		chatmanager = new ChatManager(this);
-		playermanager = new PlayerManager(this);
-		rankmanager = new RankManager(this);
-		vanishmanager = new VanishManager(this);
-		configmanager = new Configuration(this);
-		warnmanager = new WarnManager(this);
-		getPluginManager().loadThePlugin();
+	pluginmessage = new PluginMessage(this);
+	textutils = new TextUtils(this);
+	systemutils = new SystemUtils(this);
+	pluginmanager = new PluginManager(this);
+	chatmanager = new ChatManager(this);
+	playermanager = new PlayerManager(this);
+	rankmanager = new RankManager(this);
+	vanishmanager = new VanishManager(this);
+	configmanager = new Configuration(this);
+	warnmanager = new WarnManager(this);
+	getPluginManager().loadThePlugin();
     }
     
     
@@ -75,46 +75,46 @@ public class Main extends JavaPlugin {
     }
     
     
-	public FileConfiguration getSettingsConfig() {return this.getConfigManager().getConfig();}
-	public FileConfiguration getMessagesConfig() {return this.getConfigManager().getMessages();}
+    public FileConfiguration getSettingsConfig() {return this.getConfigManager().getConfig();}
+    public FileConfiguration getMessagesConfig() {return this.getConfigManager().getMessages();}
 	
-	public Configuration getConfigManager() {
-		return this.configmanager;
-	}
+    public Configuration getConfigManager() {
+	return this.configmanager;
+    }
 	
-	public TextUtils getTextUtils() {
-		return this.textutils;
-	}
+    public TextUtils getTextUtils() {
+	return this.textutils;
+    }
 	
-	public PluginManager getPluginManager() {
-		return this.pluginmanager;
-	}
+    public PluginManager getPluginManager() {
+	return this.pluginmanager;
+    }
 	
-	public SystemUtils getSystemUtils() {
-		return this.systemutils;
-	}
+    public SystemUtils getSystemUtils() {
+	return this.systemutils;
+    }
 	
-	public PluginMessage getPluginMessage() {
-		return this.pluginmessage;
-	}
+    public PluginMessage getPluginMessage() {
+	return this.pluginmessage;
+    }
 	
-	public ChatManager getChatManager() {
-		return this.chatmanager;
-	}
+    public ChatManager getChatManager() {
+	return this.chatmanager;
+    }
 	
-	public PlayerManager getPlayerManager() {
-		return this.playermanager;
-	}
+    public PlayerManager getPlayerManager() {
+	return this.playermanager;
+    }
 	
-	public RankManager getRankManager() {
-		return this.rankmanager;
-	}
+    public RankManager getRankManager() {
+	return this.rankmanager;
+    }
 	
-	public VanishManager getVanishManager() {
-		return this.vanishmanager;
-	}
+    public VanishManager getVanishManager() {
+	return this.vanishmanager;
+    }
 	
-	public WarnManager getWarnManager() {
-		return this.warnmanager;
-	}
+    public WarnManager getWarnManager() {
+	return this.warnmanager;
+    }
 }
