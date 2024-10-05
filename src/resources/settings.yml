@@ -9,7 +9,6 @@
 # +----------------------------------------------------+ #
 
 
-
 # this section is only for /server, /send, /hub
 # here is allowed servers that the player can connect to it
 # through the bungee/proxy using one of these commands
@@ -36,7 +35,7 @@ ranks:
   - vip
   - member
  exempt-players:
-  - kuzqi
+  - none
 
 # when player send a message it will check if the messages contains any blocked words
 # if it contains, he will get a mute for editable mute. 
